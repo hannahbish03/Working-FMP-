@@ -4,40 +4,50 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float knockBackForce;
-    public float knokBackTime;
-    private float knokBackCounter;
+   public float jumpForce;
+  
+   public float knockBackForce;
+   public float knockBackTime;
+   private float knockBackCounter;
+   private Vector3 moveDirection;
+   
 
     // Start is called before the first frame update
     void Start()
     {
 
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (KnockBackCounter <= 0)
+
+        //Update is called once per frame
+
+        void Update()
         {
+            if (knockBackCounter <= 0)
+            {
 
-            moveDirection.y = jumpForce;
+
+                moveDirection.y = jumpForce;
+
+            }
+
+
+            else
+            {
+
+                knockBackCounter -= Time.deltaTime;
+
+            }
 
         }
+         
+        
+        void knockBack()
+        {
+
+            knockBackCounter = knockBackTime;
+
+        }
+
+
     }
-
-    else 
-   {
-
-      KnockBackCounter -= Time.deltaTime;
-
-}   }
-    
-    
-    public void KnockBack() {
-
-
-        knockBackCounter = knockBackTime;
-    }
-
-
 }
