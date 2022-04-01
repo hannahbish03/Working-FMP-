@@ -27,6 +27,8 @@ public class HealthManager : MonoBehaviour
     }
 
     public void HealPlayer(int healAmount) {
+       
+        
         currentHealth += healAmount;
 
         if (currentHealth > maxHealth) {
