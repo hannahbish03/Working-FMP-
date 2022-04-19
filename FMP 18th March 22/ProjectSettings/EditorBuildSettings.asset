@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: 63dbf7350e3963a4f8179f89fc909c5f
   - enabled: 1
-    path: Assets/Game.unity
-    guid: 956ca622ccc69db48afe4e2526826ae0
-  - enabled: 1
     path: Assets/Controls.unity
     guid: 5d531ecef7943074cb3849a90df59f58
+  - enabled: 1
+    path: Assets/Game.unity
+    guid: 956ca622ccc69db48afe4e2526826ae0
   m_configObjects: {}
