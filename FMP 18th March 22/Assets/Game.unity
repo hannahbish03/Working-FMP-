@@ -9039,7 +9039,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: da1535271cf07fb4fb4f0901f3897797, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10503,8 +10503,8 @@ Transform:
   - {fileID: 1242638454}
   - {fileID: 997969712}
   - {fileID: 1086415740}
-  - {fileID: 1167829359}
   - {fileID: 1799068357}
+  - {fileID: 1167829359}
   - {fileID: 734926781}
   m_Father: {fileID: 232241400}
   m_RootOrder: 4
