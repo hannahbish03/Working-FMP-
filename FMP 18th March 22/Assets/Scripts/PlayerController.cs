@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
    public float jumpForce;
@@ -50,4 +51,26 @@ public class PlayerController : MonoBehaviour
 
 
     }
+
+
+   // void TakeDamage(int damage)
+   // {
+     //   currentHealth -= damage;
+    //    healthBar.SetHealth(currentHealth);
+     //   if (currentHealth <= 0)
+      //  {
+    //        Respawn();
+   //  //   }
+   // }
+   // void Respawn()
+  //  {
+ //       // reload scene
+  //      // or other respawn mechanic
+   // }
+
+
+
+
+
+
 }
