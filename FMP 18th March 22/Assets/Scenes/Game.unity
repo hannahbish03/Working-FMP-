@@ -39938,7 +39938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2833841075210124703, guid: b6d933ce60728104db09fa00c7b272ef, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3154257536282574779, guid: b6d933ce60728104db09fa00c7b272ef, type: 3}
       propertyPath: m_Convex
@@ -53855,6 +53855,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1650261853}
     m_Modifications:
+    - target: {fileID: 6075300366437786407, guid: c70d0048bcc53cd46841bf0399cdcbe6, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: f5a9bd478ca094495a4520e37f57420d, type: 3}
     - target: {fileID: 6130307414734219523, guid: c70d0048bcc53cd46841bf0399cdcbe6, type: 3}
       propertyPath: m_RootOrder
       value: 0
