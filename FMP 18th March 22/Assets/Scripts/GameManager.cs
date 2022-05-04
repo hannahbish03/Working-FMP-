@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         currentGold += goldToAdd;
         goldText.text = "Gold: " + currentGold;
 
-       if (currentGold == 4) { SceneManager.LoadScene("WinScene");}
+       if (currentGold == 20) { SceneManager.LoadScene("WinScene");}
     }
 }
 
